@@ -1,0 +1,433 @@
+[{
+  "_id": {
+    "$oid": "6385c58393eeba0572d5178a"
+  },
+  "name": "Fire-Boltt Ninja 2",
+  "category": "Smartwatches",
+  "image": "https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1663047679/Croma%20Assets/Wearable/Wearable%20Devices/Images/260881_2_czyocx.png/mxw_2048,f_auto",
+  "price": 1700,
+  "discount": 20,
+  "stripe_id": "prod_Mync8YqRp3wQax",
+  "stripe_price_id": "price_1MEq1SSE78tWZVrvWkoLwnso",
+  "netprice": 1360,
+  "discription": "Fire-Boltt is India' No 1 Wearable Watch Brand Q122 by IDC Worldwide quarterly wearable device tracker Q122.【SPO2/ Oxygen, Heart Rate Monitoring】 - Fire-Boltt Ninja 2 Smatwatch comes with real time 24*7 SPO2 / Blood Oxygen tracking, Track your heart rate on the go with best in class technology. Get faster, accurate results;【Track each sport | 30 Workout Module】 - Sweat that fat out with each sports mode tracked and monitor. Enjoy your favourite sport and let the machine do the tracking",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1669711235790"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1671005343148"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6385d08c936fc8068af209db"
+  },
+  "name": "pTron Force X10e",
+  "category": "Smartwatches",
+  "image": "https://m.media-amazon.com/images/I/61woQz1+DtL._SL1100_.jpg",
+  "price": 3499,
+  "discount": 66,
+  "netprice": 1190,
+  "discription": "Large Display: Grand 1.7 inch Colorful and bright Display with Full Touch Screen and Clear View.;Track Health & Fitness: 24Hrs Realtime Heart Rate Tracking; Blood Oxygen (SpO2); Meditative Breathing; Sleep Monitor; Sedentary Alert; Sports & Fitness Tracking; Steps & Calories Count; Hydrate Alert",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1669714060777"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1671005422388"
+    }
+  },
+  "__v": 0,
+  "stripe_id": "prod_MyneOmB3tnFuDA",
+  "stripe_price_id": "price_1MEq2kSE78tWZVrvCbDsc3FQ"
+},{
+  "_id": {
+    "$oid": "6385d0c9936fc8068af209e1"
+  },
+  "name": "Noise Pulse Go Buzz",
+  "category": "Smartwatches",
+  "image": "https://m.media-amazon.com/images/I/61akt30bJsL._SL1500_.jpg",
+  "price": 4999,
+  "discount": 65,
+  "netprice": 1750,
+  "discription": "Sharp and bright display: The 1.69’’ TFT display with 240*280px and 500 nits brightness ensures visual treat every time you look at the watch.",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1669714121937"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1671005525852"
+    }
+  },
+  "__v": 0,
+  "stripe_id": "prod_Mynf2Um6Sd5kbO",
+  "stripe_price_id": "price_1MEq4PSE78tWZVrvtbTh9DqJ"
+},{
+  "_id": {
+    "$oid": "6385d107936fc8068af209e4"
+  },
+  "name": "boAt Wave Lite",
+  "category": "Smartwatches",
+  "image": "https://m.media-amazon.com/images/I/61DZclqQ4RL._SL1500_.jpg",
+  "price": 6990,
+  "discount": 79,
+  "netprice": 1468,
+  "discription": "Screen Size: The 1.69 inch HD full touch display with 500 nits of brightness will bring every detail to life!",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1669714183126"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1671005531790"
+    }
+  },
+  "__v": 0,
+  "stripe_id": "prod_Mynf01YZRSSNHi",
+  "stripe_price_id": "price_1MEq4VSE78tWZVrvvyi2EkO5"
+},{
+  "_id": {
+    "$oid": "6385d289936fc8068af209e9"
+  },
+  "name": "Samsung Galaxy Z Flip4 5G",
+  "category": "Smartphones",
+  "image": "https://m.media-amazon.com/images/I/610PI9zfgxL._SL1500_.jpg",
+  "price": 106999,
+  "discount": 12,
+  "netprice": 94159,
+  "discription": "Style and function that fits in your pocket. It's a pocket-sized statement piece. Small but mighty when folded, this phone is compact enough to fit in your palm, but leaves a big impression with sleek, hazy colors that match your vibe.",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1669714569751"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1671005546437"
+    }
+  },
+  "__v": 0,
+  "stripe_id": "prod_Myng7hMLQcqjaX",
+  "stripe_price_id": "price_1MEq4kSE78tWZVrv1S0FXNQG"
+},{
+  "_id": {
+    "$oid": "6385d7fb936fc8068af20a15"
+  },
+  "name": "Samsung Galaxy S22 5G",
+  "category": "Smartphones",
+  "image": "https://m.media-amazon.com/images/I/71qZERyxy6L._SL1500_.jpg",
+  "price": 85999,
+  "discount": 33,
+  "netprice": 57619,
+  "discription": "Pro-grade Camera that lets you make your nights epic with Nightography: It’s our brightest innovation yet. The sensor pulls in more light, the Super Clear Glass dials down lens flare, and fast-acting AI delivers near-instant intelligent processing.",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1669715963904"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1671005549456"
+    }
+  },
+  "__v": 0,
+  "stripe_id": "prod_MyngcJn3dVJV6o",
+  "stripe_price_id": "price_1MEq4nSE78tWZVrvivHc3BCQ"
+},{
+  "_id": {
+    "$oid": "6385d89d936fc8068af20a18"
+  },
+  "name": "Samsung Galaxy S22 Ultra 5G ",
+  "category": "Smartphones",
+  "image": "https://m.media-amazon.com/images/I/71J8tz0UeJL._SL1500_.jpg",
+  "price": 108999,
+  "discount": 17,
+  "netprice": 90469,
+  "discription": "The first Galaxy S with embedded S Pen. Write comfortably like pen on paper, turn quick notes into legible text and use Air Actions to control your phone remotely. Improved latency in Samsung Notes makes every pen stroke feel as natural as ink on paper — and you can convert those hastily written ideas into legible text.",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1669716125554"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1671005553405"
+    }
+  },
+  "__v": 0,
+  "stripe_id": "prod_MyngBqrHIGprVK",
+  "stripe_price_id": "price_1MEq4rSE78tWZVrvSmqi0tVY"
+},{
+  "_id": {
+    "$oid": "6385d95e936fc8068af20a1d"
+  },
+  "name": "Apple iPhone 12 (64GB) - Black",
+  "category": "Smartphones",
+  "image": "https://m.media-amazon.com/images/I/71fVoqRC0wL._SL1500_.jpg",
+  "price": 65900,
+  "discount": 26,
+  "netprice": 48766,
+  "discription": "6.1-inch (15.5 cm diagonal) Super Retina XDR display.",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1669716318745"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1671005559399"
+    }
+  },
+  "__v": 0,
+  "stripe_id": "prod_Myngl2exPS4t5i",
+  "stripe_price_id": "price_1MEq4xSE78tWZVrv8ZVS0xWG"
+},{
+  "_id": {
+    "$oid": "6385da71936fc8068af20a24"
+  },
+  "name": "Amazon Basics Graphics Drawing Tablet",
+  "category": "Graphic Tablets",
+  "image": "https://m.media-amazon.com/images/I/51lwhHVWiXL._SL1500_.jpg",
+  "price": 9999,
+  "discount": 77,
+  "netprice": 2300,
+  "discription": "Amazon Basics Graphics Drawing Tablet Pen Tablet, 8.4 X 5.7 Inches, Speed 233, 4 Shortcut Keys, Battery Free Stylus.",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1669716593223"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1671005564686"
+    }
+  },
+  "__v": 0,
+  "stripe_id": "prod_MyngEbOlJaUCn6",
+  "stripe_price_id": "price_1MEq52SE78tWZVrvFD530Dlv"
+},{
+  "_id": {
+    "$oid": "6385daad936fc8068af20a27"
+  },
+  "name": "VEIKK A30 V2 Graphic Drawing Pen Tablet",
+  "category": "Graphic Tablets",
+  "image": "https://m.media-amazon.com/images/I/512XrlvCBNL._SL1500_.jpg",
+  "price": 8499,
+  "discount": 33,
+  "netprice": 5694,
+  "discription": "VEIKK A30 V2 Graphic Drawing Pen Tablet 10*6 Inch with 8192 Levels Passive Pen Compatible with Windows Linux&Mac System &Support Android",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1669716653318"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1671005571354"
+    }
+  },
+  "__v": 0,
+  "stripe_id": "prod_MyngDBSK38ryIe",
+  "stripe_price_id": "price_1MEq59SE78tWZVrvISniiSJY"
+},{
+  "_id": {
+    "$oid": "6385dbfd936fc8068af20a3d"
+  },
+  "name": "boAt Rockerz 510",
+  "category": "Headphones ",
+  "image": "https://m.media-amazon.com/images/I/61OU6uUy1SL._SL1500_.jpg",
+  "price": 3990,
+  "discount": 62,
+  "netprice": 1516,
+  "discription": "boAt Rockerz 510 Bluetooth Wireless Over Ear Headphones with Mic, upto 20 Hours Playback, 50MM Drivers, Padded Ear Cushions and Dual Modes (Furious Blue)",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1669716989563"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1671005574321"
+    }
+  },
+  "__v": 0,
+  "stripe_id": "prod_MyngcU2FRujtfy",
+  "stripe_price_id": "price_1MEq5CSE78tWZVrvWAk3EQC8"
+},{
+  "_id": {
+    "$oid": "6385dc21936fc8068af20a40"
+  },
+  "name": "iClever Over Ear",
+  "category": "Headphones ",
+  "image": "https://m.media-amazon.com/images/I/61Vz6idjPnL._SL1500_.jpg",
+  "price": 3999,
+  "discount": 33,
+  "netprice": 2679,
+  "discription": "iClever Bluetooth Wireless Over Ear Headphones with Mic, Foldable Wireless Headset, HiFi Sound,Deep Bass 45 Hours Playtime, Fast Charge Bluetooth 5.2 Headset for PC/iPad, Green",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1669717025819"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1671005580400"
+    }
+  },
+  "__v": 0,
+  "stripe_id": "prod_MyngGb6c0irO8b",
+  "stripe_price_id": "price_1MEq5ISE78tWZVrv8pUpsqvk"
+},{
+  "_id": {
+    "$oid": "6385dc31936fc8068af20a43"
+  },
+  "name": "Leaf Bass",
+  "category": "Headphones ",
+  "image": "https://m.media-amazon.com/images/I/71SJuaMyLDL._SL1500_.jpg",
+  "price": 1999,
+  "discount": 53,
+  "netprice": 940,
+  "discription": "Leaf Bass Wireless Bluetooth Headphones with Hi-Fi Mic and 10 Hours Battery Life, Over Ear Headphones with Super Soft Cushions and Deep Bass (Carbon Black)",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1669717041535"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1671005584698"
+    }
+  },
+  "__v": 0,
+  "stripe_id": "prod_MyngYdodlytP8i",
+  "stripe_price_id": "price_1MEq5MSE78tWZVrvtBUkcNRv"
+},{
+  "_id": {
+    "$oid": "6385dc3f936fc8068af20a46"
+  },
+  "name": "Leaf BasspTron Studio Over-Ear",
+  "category": "Headphones ",
+  "image": "https://m.media-amazon.com/images/I/51h7891AKgL._SL1100_.jpg",
+  "price": 1999,
+  "discount": 65,
+  "netprice": 700,
+  "discription": "pTron Studio Over-Ear Bluetooth 5.0 Wireless Headphones with Mic, Hi-Fi Sound with Deep Bass, 12Hrs Playback, Lightweight Wireless Headset, Soft Cushions Earpads, Fast Charging & Aux Port (Blue)",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1669717055140"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1671005587652"
+    }
+  },
+  "__v": 0,
+  "stripe_id": "prod_MyngK8tvF7Fp6G",
+  "stripe_price_id": "price_1MEq5PSE78tWZVrvMTbrlbzr"
+},{
+  "_id": {
+    "$oid": "6385ddbc936fc8068af20a56"
+  },
+  "name": "HP Pavilion x360",
+  "category": "Laptop",
+  "image": "https://m.media-amazon.com/images/I/81rW+u-yNxL._SL1500_.jpg",
+  "price": 80126,
+  "discount": 4,
+  "netprice": 76921,
+  "discription": "HP Pavilion x360,12th Gen Intel Core i5-1235U 8GB RAM/512GB SSD 14-inch(35.6 cm) Micro-Edge FHD Multitouch-Enabled Laptop/Intel Iris Xe Graphics/Backlit KB/B&O/Win 11/MSO 2021/1.41 Kg, 14-ek0084TU",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1669717436647"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1671005590470"
+    }
+  },
+  "__v": 0,
+  "stripe_id": "prod_Myngzi5XusHkeW",
+  "stripe_price_id": "price_1MEq5SSE78tWZVrvomfO7ezW"
+},{
+  "_id": {
+    "$oid": "6385ddfb936fc8068af20a5c"
+  },
+  "name": "Lenovo IdeaPad D330",
+  "category": "Laptop",
+  "image": "https://m.media-amazon.com/images/I/51gkDWHPvQL._SL1067_.jpg",
+  "price": 32090,
+  "discount": 32,
+  "netprice": 21821,
+  "discription": "Lenovo IdeaPad D330 Intel Celeron N4020 10.1\" (25cm)HD IPS Detachable 2-in-1 Laptop (4GB/128GB eMMC/Windows 10/1 Yr Warranty/Mineral Grey/1.1Kg), 82H0001YIN",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1669717499161"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1671005593795"
+    }
+  },
+  "__v": 0,
+  "stripe_id": "prod_MyngRv1MOI2POX",
+  "stripe_price_id": "price_1MEq5VSE78tWZVrvs1Fv4kID"
+},{
+  "_id": {
+    "$oid": "6385de2a936fc8068af20a62"
+  },
+  "name": "Lenovo Yoga 7",
+  "category": "Laptop",
+  "image": "https://m.media-amazon.com/images/I/71c1LAMAKyL._SL1500_.jpg",
+  "price": 153790,
+  "discount": 18,
+  "netprice": 126108,
+  "discription": "Lenovo Yoga 7 Intel Evo i7 1260P 14\"(35.56cm) QHD OLED 2-in-1 400Nits Laptop(16GB/512GB SSD/Win 11/Office 2021/Backlit KB/Digital Pen/3Yr Warranty/Alexa/3 month Game Pass/Storm Grey/1.42Kg) 82QE0060IN",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1669717546246"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1671005597679"
+    }
+  },
+  "__v": 0,
+  "stripe_id": "prod_MyngY8jyzrBZHv",
+  "stripe_price_id": "price_1MEq5ZSE78tWZVrvJw6hniI4"
+},{
+  "_id": {
+    "$oid": "6385de63936fc8068af20a67"
+  },
+  "name": "Acer Predator Helios 300 ",
+  "category": "Laptop",
+  "image": "https://m.media-amazon.com/images/I/81RiVerHLdL._SL1500_.jpg",
+  "price": 179999,
+  "discount": 18,
+  "netprice": 147599,
+  "discription": "Acer Predator Helios 300 Gaming Laptop Intel Core i9 12th Gen - (Windows 11 Home/16 GB/1TB SSD/ NVIDIA RTX 3060/165Hz) PH315-55 with 39.6 Cm (15.6 Inches) QHD IPS Display",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1669717603108"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1671005600753"
+    }
+  },
+  "__v": 0,
+  "stripe_id": "prod_Mynh2JxB8zcmLB",
+  "stripe_price_id": "price_1MEq5cSE78tWZVrvVe2VdFas"
+}]

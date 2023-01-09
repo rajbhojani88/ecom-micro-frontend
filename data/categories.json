@@ -1,0 +1,97 @@
+[{
+  "_id": {
+    "$oid": "6385c4f993eeba0572d51783"
+  },
+  "name": "Smartwatches",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1669711097892"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669711097892"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6385cc1a936fc8068af209c9"
+  },
+  "name": "Smartphones",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1669712922267"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669712922267"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6385da06936fc8068af20a21"
+  },
+  "name": "Graphic Tablets",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1669716486167"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669716486167"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6385dbcc936fc8068af20a3a"
+  },
+  "name": "Headphones ",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1669716940718"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669716940718"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6385dd86936fc8068af20a53"
+  },
+  "name": "Laptop",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1669717382037"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669717382037"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "639c39512b1003080cc0c649"
+  },
+  "name": "sdyghdfh",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1671182673970"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1671182673970"
+    }
+  },
+  "__v": 0
+}]
