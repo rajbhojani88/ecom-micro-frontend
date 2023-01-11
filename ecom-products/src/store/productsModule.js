@@ -25,10 +25,10 @@ const getters = {
     return state.cartTotal;
   },
   getLineItems(state) {
-    let userFullnames = state.cartProducts.map(function (element) {
+    let items = state.cartProducts.map(function (element) {
       return { quantity: element.qty, price: element.product.stripe_price_id };
     });
-    return userFullnames;
+    return items;
   },
 };
 
