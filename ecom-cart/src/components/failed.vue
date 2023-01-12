@@ -21,7 +21,7 @@
 
 <script lang="ts">
 export default {
-  name: "payment-failed",
+  name: "failed",
   data: () => ({
     loading: false,
   }),

@@ -1,9 +1,23 @@
-// Styles
-import "@mdi/font/css/materialdesignicons.css";
-import "vuetify/styles";
+import '@fortawesome/fontawesome-free/css/all.css'
+import 'material-design-icons-iconfont/dist/material-design-icons.css'
 
-// Vuetify
-import { createVuetify } from "vuetify";
+import Vue from 'vue';
+import Vuetify from 'vuetify/lib';
+import colors from 'vuetify/lib/util/colors'
+Vue.use(Vuetify);
 
-export default createVuetify();
-// https://vuetifyjs.com/en/introduction/why-vuetify/#feature-guides
+export default new Vuetify({
+    icons: {
+        iconfont: 'md' || 'fa' 
+      },
+      theme: {
+        themes: {
+            light: {
+                background: colors.shades.white, // Not automatically applied
+              },
+          dark: {
+            background: colors.lime, // If not using lighten/darken, use base to return hex
+          },
+        },
+      },
+});

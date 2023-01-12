@@ -55,7 +55,7 @@
         :line-items="lineItems"
         :success-url="successURL"
         :cancel-url="cancelURL"
-        @loading="(v: boolean) => (loading = v)"
+        @loading="(v) => (loading = v)"
       />
       <v-btn color="success" v-if="total != null" @click="submit" larger
         >Go to payment</v-btn
@@ -67,8 +67,7 @@
 <script lang="ts">
 import { StripeCheckout } from "@vue-stripe/vue-stripe";
 import axios from "axios";
-import { useToast } from "vue-toastification";
-import { defineComponent, ref } from "vue";
+import Vue from "vue";
 
 interface CartProducts {
   qty: string;
@@ -76,14 +75,9 @@ interface CartProducts {
     stripe_price_id: string;
   };
 }
-
-export default defineComponent({
+// Note the Vue.extend
+export default Vue.extend({
   name: "CartView",
-  setup() {
-    const toast = useToast();
-    const checkoutRef = ref<InstanceType<typeof StripeCheckout> | null>(null);
-    return { toast, checkoutRef };
-  },
   components: {
     StripeCheckout,
   },
@@ -115,13 +109,13 @@ export default defineComponent({
       await axios
         .delete("/api/cart/" + id)
         .then(({ data }) => {
-          this.toast.success(data.message, {
+          this.$toast.success(data.message, {
             timeout: 5000,
             pauseOnHover: true,
           });
         })
         .catch(({ response }) => {
-          this.toast.error(response.data.message, {
+          this.$toast.error(response.data.message, {
             timeout: 5000,
             pauseOnHover: true,
           });
@@ -136,17 +130,15 @@ export default defineComponent({
           this.total = data.total;
         })
         .catch(({ response }) => {
-          this.toast.error(response.data.message, {
+          this.$toast.error(response.data.message, {
             timeout: 5000,
             pauseOnHover: true,
           });
         });
     },
     submit() {
-      // You will be redirected to Stripe's secure checkout page
-      if (this.checkoutRef != null) {
-        this.checkoutRef.redirectToCheckout();
-      }
+      const asf: any = this.$refs.checkoutRef;
+      if (asf) asf.redirectToCheckout();
     },
   },
 });

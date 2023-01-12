@@ -16,24 +16,17 @@
       <div class="my-4 text-subtitle-1">Transecttion ID: 23u584609</div>
     </v-card-text>
     <v-divider class="mx-4"></v-divider>
-    <v-card-title>Amount Paid: $43968</v-card-title>
+    <v-card-title>Amount Paid: $1111</v-card-title>
     <v-card-actions>
       <v-btn color="deep-purple lighten-2" text to="/"> Buy Again </v-btn>
     </v-card-actions>
   </v-card>
 </template>
 
-<script lang="ts">
-import { useToast } from "vue-toastification";
+<script>
 import axios from "axios";
-import { defineComponent } from "vue";
-
-export default defineComponent({
-  name: "payment-success",
-  setup() {
-    const toast = useToast();
-    return { toast };
-  },
+export default {
+  name: "success",
   async beforeMount() {
     await axios
       .delete("/api/clearCart")
@@ -41,7 +34,7 @@ export default defineComponent({
         console.log(data);
       })
       .catch(({ response }) => {
-        this.toast.error(response.data.message, {
+        this.$toast.error(response.data.message, {
           timeout: 5000,
           pauseOnHover: true,
         });
@@ -50,7 +43,7 @@ export default defineComponent({
   data: () => ({
     loading: false,
   }),
-});
+};
 </script>
 
 <style scoped></style>
