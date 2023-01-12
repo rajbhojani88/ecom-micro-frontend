@@ -1,8 +1,6 @@
 const ModuleFederationPlugin =
   require("webpack").container.ModuleFederationPlugin;
 const path = require("path");
-const MiniCssExtractPlugin = require("mini-css-extract-plugin");
-const deps = require("./package.json");
 module.exports = {
   publicPath: 'auto',
   configureWebpack: {

@@ -4,8 +4,8 @@ import router from "./router";
 import vuetify from "./plugins/vuetify";
 import axios from 'axios'
 import VueAxios from 'vue-axios'
-import Cookies from 'js-cookie'
 import Toast from "vue-toastification";
+import 'vuetify/dist/vuetify.min.css'
 // Import the CSS or use your own!
 import "vue-toastification/dist/index.css";
 
