@@ -10,15 +10,13 @@
         v-for="cartProduct in cartProducts"
         :key="cartProduct.product._id"
       >
-        <template v-slot:prepend>
-          <v-avatar size="66px">
-            <v-img
-              max-height="100"
-              max-width="100"
-              :src="cartProduct.product.image"
-            />
-          </v-avatar>
-        </template>
+        <v-list-item-avatar size="66px">
+          <v-img
+            max-height="100"
+            max-width="100"
+            :src="cartProduct.product.image"
+          />
+        </v-list-item-avatar>
 
         <v-list-item-content>
           <v-list-item-title
@@ -30,7 +28,7 @@
           ></v-list-item-subtitle>
         </v-list-item-content>
 
-        <template v-slot:append>
+        <v-list-item-action>
           <v-btn icon>
             <v-icon
               color="grey lighten-1"
@@ -38,7 +36,7 @@
               >mdi-delete</v-icon
             >
           </v-btn>
-        </template>
+        </v-list-item-action>
       </v-list-item>
       <v-divider inset></v-divider>
     </v-list>
