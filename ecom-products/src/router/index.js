@@ -4,9 +4,6 @@ import ProductsListView from "../views/ProductsListView.vue";
 import ProductsGridView from "../views/ProductsGridView.vue";
 import Home from "../views/Home.vue";
 import ProductDetails from "../components/ProductDetails.vue";
-import Cart from "../components/Cart";
-import Success from "../components/Cart/success";
-import Failed from "../components/Cart/failed";
 import Cookies from "js-cookie";
 
 Vue.use(VueRouter);
@@ -31,21 +28,6 @@ const routes = [
     path: "/product/:id",
     name: "productDetails",
     component: ProductDetails,
-  },
-  {
-    path: "/cart",
-    name: "Cart",
-    component: Cart,
-  },
-  {
-    path: "/payment/success",
-    name: "Success",
-    component: Success,
-  },
-  {
-    path: "/payment/failed",
-    name: "Failed",
-    component: Failed,
   },
 ];
 

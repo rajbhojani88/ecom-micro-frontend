@@ -12,7 +12,7 @@ module.exports = {
       splitChunks: false,
     },
     target: "web",
-    entry: path.resolve(__dirname, "./src/index.js"),
+    entry: path.resolve(__dirname, "./src/index.ts"),
     resolve: {
       extensions: [".vue", ".jsx", ".js", ".json"],
       // alias: {
@@ -25,20 +25,19 @@ module.exports = {
     },
     plugins: [
       new ModuleFederationPlugin({
-        name: "products",
+        name: "cart",
         filename: "remoteEntry.js",
         exposes: {
-          "./ProductsGrid": "./src/components/ProductsGrid",
-          "./ProductsList": "./src/components/ProductsList",
-          "./ProductDetails": "./src/components/ProductDetails",
-          "./productsModule": "./src/store/productsModule",
+          "./Success": "./src/components/success",
+          "./Failed": "./src/components/failed",
+          "./CartView": "./src/components/CartView",
         },
         shared: require("./package.json").dependencies,
       }),
     ],
   },
   devServer: {
-    port: 3002,
+    port: 3004,
     proxy: {
       "^/api": {
         target: "http://localhost:8000",
